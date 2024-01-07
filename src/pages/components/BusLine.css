@@ -1,0 +1,10 @@
+.BusLine_header {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
+.BusLine_stopName {
+  font-size: 15px;
+}

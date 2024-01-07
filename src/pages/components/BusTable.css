@@ -1,0 +1,17 @@
+.BusTable {
+  padding: 20px;
+}
+
+.BusTable_container {
+  display: grid;
+  padding: 15px;
+  gap: 10px;
+  border-radius: 15px;
+  box-shadow: -1px 9px 19px 1px rgba(135, 119, 119, 0.626);
+  background-color: ghostwhite;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.BusTable_header {
+  margin-bottom: 10px;
+}
