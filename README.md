@@ -2,6 +2,8 @@
 
 In the project directory, you can run:
 
+### `npm install´ so that you get the node modules package so you're able to start the client and then the command below
+
 ### `npm start`
 
 Runs the app in the development mode.\
