@@ -21,7 +21,7 @@ export const BusTable = () => {
   const [busLineData, setBusLineData] = useState<ListOfBusInfo>();
 
   const fetchData = async () => {
-    return await fetch("http://localhost:8080/app/v2/busdata")
+    return await fetch("http://localhost:8080/app/v1/busdata")
       .then((response) => response.json())
       .then((data) => setBusLineData(data))
       .catch((error) => console.error(error));
